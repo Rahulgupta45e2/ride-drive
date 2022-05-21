@@ -1,0 +1,58 @@
+main {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+main img{
+    max-height: 500px;
+    min-width: 400px;
+    background-size: auto;
+}
+main h1{
+    margin:2rem;
+    text-align:center;
+}
+/* main form{
+
+} */
+main>form>div{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 1rem;
+}
+main input{
+    line-height: 2rem;
+    width:250px;
+    margin-top: 0.4rem;
+    padding:0.25rem;
+}
+
+/* SECTION */
+section{
+    margin:2rem;
+}
+section h2{
+    margin:1rem;
+    color: #474fa0;
+}
+section table{
+    background-color: rgb(243, 241, 241);
+    border:1px solid black;
+    border-radius: 1rem;
+    padding:2rem 4rem;
+    width: 80%;
+}
+section th,td{
+    min-width:100px;
+    line-height: 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+.da select option{
+    line-height: 2rem;
+    width:250px;
+    margin-top: 0.4rem;
+    padding:0.25rem;
+}
